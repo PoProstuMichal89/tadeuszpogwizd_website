@@ -113,11 +113,40 @@ ul.footer_items>li a:hover
 #footer_right
 {
 	float: left;
-	width: 325px;
+	width: 345px;
 	height: 64px;
+	margin-left: 10px;
+	margin-right: 4px;
 }
 
+.social
+{
+	/*padding: 5px;*/
+	width:200px;
+	height:60px;
 
+}
+
+.fb
+{
+	float: left;
+	width: 65px;
+	height: 60px;
+}
+
+.twitter
+{
+	float: left;
+	width: 65px;
+	height: 60px;
+}
+
+.insta
+{
+	float: left;
+	width: 65px;
+	height: 60px;
+}
 
 #logo
 {
