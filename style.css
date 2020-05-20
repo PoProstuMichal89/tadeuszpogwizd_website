@@ -64,7 +64,7 @@ color: grey;
 {
 	width: 250px;
 	height: 64px;
-	margin-left: -40px;
+	margin-left: -15px;
 	color: white;
 	font-weight: 540;
 	float:left;
@@ -81,7 +81,7 @@ ul.footer_items>li
 
 ul.footer_items>li:first-child
 {
-	width: 85px;
+	width: 95px;
 }
 
 ul.footer_items>li a
@@ -102,7 +102,7 @@ ul.footer_items>li a:hover
 {
 	float:left;
 	width: 285px;
-	margin-left: 40px;
+	margin-left: 85px;
 	margin-right: 45px;
 	text-align: center;
 	padding-bottom: 6px;
@@ -113,10 +113,9 @@ ul.footer_items>li a:hover
 #footer_right
 {
 	float: left;
-	width: 345px;
+	width: 250px;
 	height: 64px;
-	margin-left: 10px;
-	margin-right: 4px;
+
 }
 
 .social
@@ -124,7 +123,7 @@ ul.footer_items>li a:hover
 	/*padding: 5px;*/
 	width:200px;
 	height:60px;
-
+	margin-left: 75px;
 }
 
 .fb
