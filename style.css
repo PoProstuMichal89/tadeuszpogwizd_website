@@ -115,12 +115,11 @@ ul.footer_items>li a:hover
 	float: left;
 	width: 250px;
 	height: 64px;
-
 }
 
+/*Social media in right footer (without hover)*/
 .social
 {
-	/*padding: 5px;*/
 	width:200px;
 	height:60px;
 	margin-left: 75px;
@@ -145,6 +144,22 @@ ul.footer_items>li a:hover
 	float: left;
 	width: 65px;
 	height: 60px;
+}
+
+/*Social media in right footer (with hover)*/
+.fb:hover
+{
+	opacity:0.3;
+}
+
+.twitter:hover
+{
+	opacity:0.3;
+}
+
+.insta:hover
+{
+	opacity:0.3;
 }
 
 #logo
