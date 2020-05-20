@@ -107,6 +107,7 @@ ul.footer_items>li a:hover
 	text-align: center;
 	padding-bottom: 6px;
 	padding-top: 6px;
+	font-size: 18px;
 }
 
 /*Right footer*/
@@ -167,13 +168,11 @@ ul.footer_items>li a:hover
 a:link
 {
 	color: grey;
-	
 }
 
 a:visited
 {
 	color: grey;
-	
 }
 
 #logo
@@ -183,6 +182,10 @@ a:visited
 	float: left;
 }
 
+ #logo:hover
+{
+	opacity:0.4;
+}
 .menu
 {
 	/*display: none;*/
@@ -251,7 +254,6 @@ ol>li>ul
 	padding: 0px;
 	line-height: 31px;
 	width: 170px;
-	
 }
 
 ol>li:hover>ul
@@ -266,9 +268,8 @@ ol>li>ul>li:hover
 {
 	border-top: dashed 1px #ffffff;
 	border-bottom: dashed 1px #ffffff;
-	width: 170px;	
+	width: 170px;
 	font-size: 21px;
-    
 	/*opacity: 0.9;*/  /*ten zpais wpływa na listę <ul> i elementy <li>*/
 }
 
