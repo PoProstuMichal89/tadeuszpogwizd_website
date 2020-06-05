@@ -32,8 +32,9 @@ color: grey;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url("country-quilt-dark.png");
-	opacity: 0.7;  /*To jest ok*/
+	opacity: 0.77;  /*To jest ok*/
 	padding: 30px;
+	position: relative;
 }
 
 .head_content
@@ -49,10 +50,10 @@ color: grey;
 {
 	width:165px;
 	height: 230px;
-	margin-right: 5px;
+	margin-right: 50px;
 	float: left;
 	margin-right: 50px;
-	opacity: 0.7;
+	opacity: 0.55;
 }
 
 .content_cytat
@@ -60,12 +61,70 @@ color: grey;
 	float: left;
 	width:500px;
 	height:230px;
-	font-size: 23px;
+	font-size: 19px;
 	margin-left: 50px;
-	text-align: right;
-	opacity: 0.8;
+	text-align: justify;
+	letter-spacing: 1px;
 }
 
+.signature /*Signature in motto on main page*/
+{
+	text-align: right;
+	font-style: italic;
+}
+
+.left_content_box
+{
+	margin-top: 30px;
+	padding: 5px;
+	font-size: 19px;
+	width: 220px;
+	text-align: justify;
+	float: left;
+	position: absolute;
+	left: 50px;
+}
+
+.center_content_box
+{
+	margin-top: 75px;
+	padding: 5px;
+	width: 275px;
+	float: left;
+	position: absolute;
+	right: 340px;
+	opacity: 0.4;
+}
+
+.right_content_box
+{
+	margin-top: 30px;
+	padding: 5px;
+	font-size: 19px;
+	width: 220px;
+	text-align: justify;
+	position: absolute;
+	right: 50px;
+}
+
+.main_content_header /*Header in MAIN PAGE -> "O mnie" and "Moje motto"*/
+{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.under_content_box
+{
+	position: absolute;
+	bottom: 15px;
+	font-size: 19px;
+	padding: 55px;
+	margin-left: auto;
+	margin-right: 18px;
+	text-align: justify;
+	word-spacing: 4px;
+}
 #nav
 {
 	height: 250px;
@@ -88,7 +147,8 @@ color: grey;
 	margin-right: 183px;
 	padding: 5px;
 	background-image: url("country-quilt-dark.png");
-	opacity: 0.7;
+	opacity: 0.77;
+	position: relative;
 }
 /*Left Side of Footer*/
 #footer_left
@@ -120,7 +180,7 @@ ul.footer_items>li a
 {
 	color: #A6A6A6;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 20px;
 	height: 30px;
 }
 
@@ -139,7 +199,7 @@ ul.footer_items>li a:hover
 	text-align: center;
 	padding-bottom: 6px;
 	padding-top: 6px;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 /*Right footer*/
@@ -210,7 +270,7 @@ a:visited
 #logo
 {
 	margin-left: -63px;
-	opacity: 0.5; /*to jest ok*/
+	opacity: 0.77; /*to jest ok*/
 	float: left;
 }
 
@@ -221,12 +281,10 @@ a:visited
 .menu
 {
 	/*display: none;*/
-	padding-top: 89px;
+	padding-top: 80px;
 	/*opacity: 1;*/
 	width: 840px;
 }
-
-
 
 .menu:hover
 {
@@ -240,8 +298,8 @@ ol
 	margin: 0;
 	font-size: 21px;
 	display: inline-block;
-	height: 35 px;
-	line-height: 200%; /*pytanie w jaki sposób działa ten element i jak wpływa na inne rzeczy*/
+	height: 45px;
+	line-height: 225%; /*pytanie w jaki sposób działa ten element i jak wpływa na inne rzeczy*/
 	border-bottom: dashed 1px #ffffff;
 	border-top: dashed 1px #ffffff;
 }
