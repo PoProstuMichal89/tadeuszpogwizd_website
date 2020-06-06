@@ -198,8 +198,8 @@ ul.footer_items>li a:hover
 	margin-right: 45px;
 	text-align: center;
 	padding-bottom: 6px;
-	padding-top: 6px;
-	font-size: 19px;
+	padding-top: 8px;
+	font-size: 17px;
 }
 
 /*Right footer*/
@@ -386,8 +386,46 @@ ol>li>ul>li
 	font-size:18px;
 }
 
+/*...................................................*/
+/*Contact Page*/
 
+#kontakt_header
+{
+	font-size: 35px;
+	text-align: left;
+	font-weight: 900;
+	margin-bottom: 40px;
+	letter-spacing: 3px;
+	color: white;
+}
 
+#contact_data
+{
+	width: 400px;
+	padding: 10px
+	margin-left: -20px;
+	margin-top: 35px;
+	font-size: 18px;
+}
 
+.contact_lead
+{
+	margin-bottom: 40px;
+}
 
+#contact_item
+{
+	border-top: solid 1px whitesmoke;
+	border-bottom: solid 1px whitesmoke;
+	line-height: 9px;
+	margin-bottom: 40px;
+}
 
+#contact_image
+{
+	opacity: 0.45;
+	border-radius: 8px;
+	position: absolute;
+	bottom: 60px;
+	right: 335px;
+}
