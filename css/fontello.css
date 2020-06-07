@@ -55,6 +55,6 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-instagram:before { content: '\f16d';font-size:50px;} /* '' */
-.icon-facebook:before { content: '\f300';font-size:50px;} /* '' */
-.icon-twitter:before { content: '\f309'; font-size:50px; } /* '' */
+.icon-instagram:before { content: '\f16d';font-size:40px;} /* '' */
+.icon-facebook:before { content: '\f300';font-size:40px;} /* '' */
+.icon-twitter:before { content: '\f309'; font-size:40px; } /* '' */
