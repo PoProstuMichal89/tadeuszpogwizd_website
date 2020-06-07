@@ -22,7 +22,7 @@
 
 			<div id="logo">
 				<a href="#">
-					<img src="Logo3.png" width= "230px", height="230px">
+					<img src="src/Logo3.png" width= "230px", height="230px">
 				</a>
 			</div>
 
@@ -64,22 +64,41 @@
 			<div id="kontakt_header">
 				<h>Kontakt</h>
 			</div>
-				<p class="contact_lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut dui.</p>
+			<div id="contact_icon">
+				XXXXX
+			</div>
+				<p id="contact_lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut dui.</p>
 				<div id="contact_item">
 					<p>Tel: 123-456-789</p>
 					<p>Fax: 123-456-7890</p>
 					<p>info@mysite.com</p>
 				</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor magna nec ipsum tincidunt pulvinar. Quisque vel tincidunt nunc. Curabitur.</p>
+			<p id="contact_footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor magna nec ipsum tincidunt pulvinar. Quisque vel tincidunt nunc. Curabitur.</p>
 		</div>
 
-		<div id="contact_form"></div>
+		<div id="contact_form">
+			<div id="contact_form_lead">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut dui.</p>
+			</div>
+			<div id="contact_form_items">
+				<form action="mailto:melmanwelcome@onet.eu?subject=Kontakt" method="POST"enctype="text/plain" accept-charset="utf-8"></form>
+					<div><label>Imię<br><input type="text" name="imie" placeholder="Podaj Imię"><label/></div>
+					<div><label>Email<br><input type="text" name="email" placeholder="Podaj adres e-mail"><label/></div>
+					<div><label>Phone<br><input type="text" name="phone" placeholder="Podaj nr telefonu"><label/></div>
+					<div id="form-message">
+						<div><label for="text_area_message">Wiadomość</label></div>
+						<textarea name="text_area_message" id="text_area_message" rows="4" cols="33" maxlength="300"></textarea>
+					<div id="submit_contact">
+						<input type="submit" value="Wyślij">
+					</div>
+					</div>
+				</form>
+			</div>
+		</div>
 
 		<div id="contact_image">
-			<img src="src/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg" width="280px" height="260px"/>
+			<img src="src/close-up-photo-of-gray-typewriter-952594.jpg" width="350px" height="250px"/>
 		</div>
-
-	
 
 	</div>
 
